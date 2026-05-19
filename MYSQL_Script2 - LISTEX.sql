@@ -1,26 +1,26 @@
 use bcoFIO;
 
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Amaro Merico Vespucio','2001-02-02','M',2500.00,'Rua B');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Abílio Abel Garcia','2001-02-03','M',1000.00,'Rua C');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Bia Bianca Bones','2001-03-04','F',5000.25,'Rua D');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Beatriz Bertioga','2001-05-05','F',300.00,'Rua E');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Caio Cesar Cearez','2001-05-06','M',250.00,',Rua F');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Celso Cesare','2001-06-07','M',1542.36,'Rua J');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Danilo Douglas','2001-06-08','M',1524.56,'Rua K');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Denis Denilo','2001-07-09','M',5235.56,'Rua L');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Everton Evaristo','2001-07-10','M',2542.25,'Rua M');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Evanir Eva','2001-08-11','M',4523.54,'Rua N');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Fabio Fabricio','2001-08-12','M',1524.25,'Rua O');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Fabiola Fabiolo','2002-01-02','F',2554.25,'Rua P');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Geraldo Gomes','2002-10-03','M',1542.25,'Rua Q');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Helio Heliópolis','2002-01-04','M',1542.23,'Rua R');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Irineu Irene','2002-02-05','M',2523.00,'Rua S');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Jonas jackes','2002-02-05','M',2500.00,'Rua T');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Leandro Lago','2002-02-06','M',1500.00,'Rua U');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Lucio Lacio','2002-03-07','M',2500.00,'Rua V');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Lecio Licio','2002-04-08','M',1420.00,'Rua X');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Mario Mendes','2002-02-06','M',1262.00,'Rua W');
-INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Olavo Odavlas','2002-07-07','M',1540.00,'Rua Y');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Amaro Merico Vespucio','02/02/01','M',2500.00,'Rua B');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Abílio Abel Garcia','03/02/01','M',1000.00,'Rua C');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Bia Bianca Bones','04/03/01','F',5000.25,'Rua D');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Beatriz Bertioga','05/05/01','F',300.00,'Rua E');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Caio Cesar Cearez','06/05/01','M',250.00,',Rua F');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Celso Cesare','07/06/01','M',1542.36,'Rua J');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Danilo Douglas','08/06/01','M',1524.56,'Rua K');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Denis Denilo','09/07/01','M',5235.56,'Rua L');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Everton Evaristo','10/07/01','M',2542.25,'Rua M');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Evanir Eva','11/08/01','M',4523.54,'Rua N');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Fabio Fabricio','12/08/01','M',1524.25,'Rua O');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Fabiola Fabiolo','02/01/02','F',2554.25,'Rua P');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Geraldo Gomes','03/010/02','M',1542.25,'Rua Q');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Helio Heliópolis','04/01/02','M',1542.23,'Rua R');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Irineu Irene','05/02/02','M',2523.00,'Rua S');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Jonas jackes','05/02/02','M',2500.00,'Rua T');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Leandro Lago','06/02/02','M',1500.00,'Rua U');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Lucio Lacio','07/03/02','M',2500.00,'Rua V');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Lecio Licio','08/04/02','M',1420.00,'Rua X');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Mario Mendes','06/02/02','M',1262.00,'Rua W');
+INSERT INTO Funcionario (`Nome_Func`, `Data_CadFunc`, `Sexo_Func`, `Sal_Func`, `End_Func`) VALUES('Olavo Odavlas','07/07/02','M',1540.00,'Rua Y');
 
 INSERT INTO TipoEnd (`Nome_TipoEnd`) VALUES('Entrega');
 INSERT INTO TipoEnd (`Nome_TipoEnd`) VALUES('Faturamento');
@@ -408,12 +408,12 @@ INSERT INTO Produto VALUES(null,1,'Geladeira',500,3200);
 INSERT INTO Produto VALUES(null,1,'Fogão',500,700);
   
 /*
--- *********************************************************************************
+-- 
 * Verificando a Criação da Tabelas do Database           *
 
 */
 
--- *********************************************************************************
+-- 
 SELECT * FROM Bonus;
 SELECT * FROM Cidade;
 SELECT * FROM Cliente;
