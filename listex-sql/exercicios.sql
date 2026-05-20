@@ -56,7 +56,7 @@ group by C.Cod_Cli,
 update funcionario
 set Sal_Func = Sal_Func * 1.20
 where Sexo_Func = 'F'
-    and Sal_Func < 1000.00;
+  and Sal_Func < 1000.00;
 
 # 13 -----------------------------------------------------------
 update produto
@@ -71,4 +71,76 @@ where Cod_TipoProd = 2;
 # 15 -----------------------------------------------------------
 update produto
 set Val_UnitProd = Val_UnitProd * 0.80
-where  Cod_TipoProd = 3;
+where Cod_TipoProd = 3;
+
+# 37 -----------------------------------------------------------
+select f.Nome_Func,
+       count(p.Num_Ped) as total_pedidos
+from funcionario f
+         left join pedido p on f.Cod_Func = p.Cod_Func
+group by f.Cod_Func, f.Nome_Func;
+
+# 38 -----------------------------------------------------------
+select f.Nome_Func      as funcionario,
+       c.Nome_Cli       as cliente,
+       count(p.Num_Ped) as total_pedidos
+from pedido p
+         inner join funcionario f on p.Cod_Func = f.Cod_Func
+         inner join cliente c on p.Cod_Cli = c.Cod_Cli
+group by f.Cod_Func,
+         f.Nome_Func,
+         c.Cod_Cli,
+         c.Nome_Cli
+order by f.Nome_Func,
+         c.Nome_Cli;
+
+# 39 -----------------------------------------------------------
+select c.Cod_Cli,
+       c.Nome_Cli      as cliente,
+       te.Cod_TipoEnd,
+       te.Nome_TipoEnd as tipo_endereco,
+       count(*)        as total_enderecos
+from endereco e
+         inner join cliente c
+                    on e.Cod_Cli = c.Cod_Cli
+         inner join tipoend te
+                    on e.Cod_TipoEnd = te.Cod_TipoEnd
+group by c.Cod_Cli,
+         c.Nome_Cli,
+         te.Cod_TipoEnd,
+         te.Nome_TipoEnd
+order by c.Cod_Cli,
+         te.Cod_TipoEnd;
+
+# 40 -----------------------------------------------------------
+select sum(Sal_Func) as total_salarios
+from funcionario;
+
+# 41 -----------------------------------------------------------
+select 'Casado' as estado_civil,
+       count(*) as total_clientes
+from cliente c
+where c.Cod_Cli in (
+    select Cod_Cli
+    from conjuge
+)
+
+union
+
+select 'Solteiro' as estado_civil,
+       count(*) as total_clientes
+from cliente c
+where c.Cod_Cli not in (
+    select Cod_Cli
+    from conjuge
+);
+
+# 42 -----------------------------------------------------------
+select c.Nome_Cli as cliente,
+       count(e.EMail_Cli) as total_emails
+from cliente c
+         left join email e
+                   on c.Cod_Cli = e.Cod_Cli
+group by c.Cod_Cli,
+         c.Nome_Cli
+order by c.Nome_Cli;
